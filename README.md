@@ -6,7 +6,7 @@ Example: `vlc://path/to/video.mp4?start=30&stop=60&loop=true`
 
 ## Motivation
 
-As a guitarist, I often need to quickly access specific sections of music videos or loop backing tracks for practice. This tool streamlines that process, allowing me to create clickable links in my Obsidian (or simple HTML) documents that open VLC with precise settings for each song or practice section. It transforms my practice routine, making it more efficient and organized.
+As a guitarist, I often need to quickly access specific sections of music videos or loop backing tracks for practice. This tool streamlines that process, allowing me to create clickable links in my Obsidian (or simple HTML) documents that open VLC with precise settings for each song or practice section. It makes my practice routine more efficient and organized.
 
 ## Features
 
@@ -69,20 +69,20 @@ git clone https://github.com/yourusername/vlc-url-handler.git
 7. In order to register the URL Scheme you need to add the following lines to the Info.plist of the VLCURLHandler.app, inside of the <dict></dict> tag.
 ```xml
 <key>CFBundleURLTypes</key>
-    <array>
-        <dict>
-            <key>CFBundleURLName</key>
-            <string>Custom Scheme</string>
-            <key>CFBundleURLSchemes</key>
-            <array>
-                <string>vlc</string>
-            </array>
-        </dict>
-    </array>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>vlc</string>
-    </array>
+<array>
+    <dict>
+        <key>CFBundleURLName</key>
+        <string>Custom Scheme</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>vlc</string>
+        </array>
+    </dict>
+</array>
+<key>LSApplicationQueriesSchemes</key>
+<array>
+    <string>vlc</string>
+</array>
 ``` 
 8. Restart or run following command to apply the new url scheme
 ```bash
