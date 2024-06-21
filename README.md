@@ -27,7 +27,7 @@ Choose one of the following installation methods:
 
 ### 1. Download Pre-built Application
 
-1. Go to the [Releases](https://github.com/yourusername/vlc-url-handler/releases) page.
+1. Go to the [Releases](https://github.com/ohmycode/vlc-url-handler/releases) page.
 2. Download the latest `VLCURLHandler.app.zip` file.
 3. Unzip the file and move `VLCURLHandler.app` to your Applications folder.
 
